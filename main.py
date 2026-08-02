@@ -22,7 +22,7 @@ class Browser(QMainWindow):
         self.browser = QWebEngineView()
 
         base_path = os.path.dirname(os.path.abspath(__file__))
-        file_path = os.path.join(base_path, "index.html")
+        file_path = os.path.join(base_path, "Content/index.html")
 
 
         self.browser.load(QUrl.fromLocalFile(file_path))
