@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* Roboto | Open Sans | Playfair Display serif | Poppins */
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.coin-image-nav {
+    /* background: red; */
+    padding-top: 50px;
+}
+
+.coin-image {
+    width: 85px;
+    height: auto;
+}
+
+.coin-value-nav {
+    padding-top: 15px;
+    display: flex;
+    /* background: green; */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.coin-value {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.coin-name {
+    margin: 0;
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.coin-usd-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.usd-symbol {
+    color: #7F8081;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.coin-usd {
+    /* color: white;    
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold; */
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 16px;
+    text-size-adjust: 100%;
+    color: white;
+}
+
+.main-button {
+    min-width: 245px;
+    max-width: 245px;
+    height: 48px;
+    background: transparent;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    /* font-weight: bold; */
+    border: 2px solid #E9B72C;
+    border-radius: 30px;
+    margin: 8px;
+}
+
+.main-button:hover {
+    background: #0C0E0F;
+}
