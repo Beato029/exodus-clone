@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Exodus</title>
+</head>
+
+<body>
+
+    <div class="global-nav">
+        <!-- Left  -->
+        <div class="credit-nav">
+            <button class="logo-button" data-label="Home" onclick="window.location.href='index.html'"><img
+                    src="svg/brand/exodus-logomark.svg"></button>
+            <h1>$<button class="credit-button">0.00</button></h1>
+        </div>
+
+        <!-- Center -->
+        <div class="global-buttons-nav">
+            <button class="global-button portfolio" data-label="Portfolio"
+                onclick="window.location.href='portfolio.html'"><img
+                    src="global-nav/icon-global-nav-portfolio.svg"></button>
+            <button class="global-button wallet" data-label="Wallet" onclick="window.location.href='index.html'"><img
+                    src="global-nav/icon-global-nav-wallet.svg"></button>
+            <!-- <button class="global-button exchange" data-label="Swap" onclick="window.location.href='exchange.html'"><img
+                    src="global-nav/icon-global-nav-exchange.svg"></button>
+            <button class="global-button onramp" data-label="Buy and Sell"
+                onclick="window.location.href='onramp.html'"><img
+                    src="global-nav/icon-global-nav-fiat-onramp.svg"></button>
+            <button class="global-button rewards" data-label="Staking"
+                onclick="window.location.href='rewards.html'"><img
+                    src="global-nav/icon-global-nav-earn-rewards.svg"></button>
+            <button class="global-button nfts" data-label="NTFs" onclick="window.location.href='nfts.html'"><img
+                    src="global-nav/icon-global-nav-nfts.svg"></button> -->
+        </div>
+
+        <!-- Right -->
+        <div class="settings-nav">
+            <button class="settings-button"><img src="svg/icon-advanced.svg"></button>
+        </div>
+
+    </div>
+
+    <div id="exodus-content" class="exodus-content exodus-content--horizontal-nav">
+        <div id="exodus-content-portfolio">
+
+            <div class="portfolio-container fadeInAnimation_f15g9fmj">
+                <div class="welcome-to-exodus">
+                    <p class="welcome-to-exodus__title">Start Your Journey</p>
+                    <ul class="welcome-to-exodus__cards" id="welcome-message">
+                        <li>
+                            <div id="receive-crypto-select" tabindex="0"
+                                class="search-select searchSelectStyle_s17wbauz">
+                                <article class="welcome-to-exodus__card"><svg xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="82"
+                                        class="welcome-to-exodus__card-icon">
+                                        <defs>
+                                            <linearGradient id="fund-icon-a" x1="0%" x2="102%" y1="48.611%"
+                                                y2="51.417%">
+                                                <stop offset="0%" stop-color="#FFF" stop-opacity="0.1">
+                                                </stop>
+                                                <stop offset="100%" stop-color="#FFF" stop-opacity="0.5"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="fund-icon-b" x1="102%" x2="2.718%" y1="60.471%"
+                                                y2="40.286%">
+                                                <stop offset="0%" stop-color="#FFF" stop-opacity="0.1">
+                                                </stop>
+                                                <stop offset="100%" stop-color="#FFF" stop-opacity="0.5"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="fund-icon-c" x1="102%" x2="2.718%" y1="57.576%"
+                                                y2="42.972%">
+                                                <stop offset="0%" stop-color="#FFF" stop-opacity="0.1">
+                                                </stop>
+                                                <stop offset="100%" stop-color="#FFF" stop-opacity="0.5"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="fund-icon-d" x1="102%" x2="2.718%" y1="68.36%"
+                                                y2="32.969%">
+                                                <stop offset="0%" stop-color="#FFF" stop-opacity="0.5">
+                                                </stop>
+                                                <stop offset="100%" stop-color="#FFF" stop-opacity="0.1"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="fund-icon-g" x1="100%" x2="0%" y1="73.527%"
+                                                y2="26.473%">
+                                                <stop offset="0%" stop-color="#FF9F19"></stop>
+                                                <stop offset="100%" stop-color="#FC3"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="fund-icon-j" x1="100%" x2="0%" y1="100%" y2="0%">
+                                                <stop offset="0%" stop-color="#5C26FF"></stop>
+                                                <stop offset="100%" stop-color="#8C66FF"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="fund-icon-m" x1="100%" x2="0%" y1="100%" y2="0%">
+                                                <stop offset="0%" stop-color="#556FF2"></stop>
+                                                <stop offset="100%" stop-color="#00BFFF"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="fund-icon-n" x1="0%" x2="100%" y1="22.95%" y2="77.05%">
+                                                <stop offset="0%" stop-color="#FF9F19"></stop>
+                                                <stop offset="100%" stop-color="#FC3"></stop>
+                                            </linearGradient>
+                                            <filter id="fund-icon-e" width="254%" height="324.4%" x="-77%" y="-98.2%"
+                                                filterUnits="objectBoundingBox">
+                                                <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1">
+                                                </feOffset>
+                                                <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1"
+                                                    stdDeviation="7.5">
+                                                </feGaussianBlur>
+                                                <feColorMatrix in="shadowBlurOuter1"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0">
+                                                </feColorMatrix>
+                                            </filter>
+                                            <filter id="fund-icon-h" width="244.9%" height="255.2%" x="-72.5%"
+                                                y="-69.3%" filterUnits="objectBoundingBox">
+                                                <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+                                                </feOffset>
+                                                <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1"
+                                                    stdDeviation="3">
+                                                </feGaussianBlur>
+                                                <feColorMatrix in="shadowBlurOuter1"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0">
+                                                </feColorMatrix>
+                                            </filter>
+                                            <filter id="fund-icon-k" width="247.7%" height="258%" x="-73.9%" y="-67.9%"
+                                                filterUnits="objectBoundingBox">
+                                                <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1">
+                                                </feOffset>
+                                                <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1"
+                                                    stdDeviation="4.5">
+                                                </feGaussianBlur>
+                                                <feColorMatrix in="shadowBlurOuter1"
+                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0">
+                                                </feColorMatrix>
+                                            </filter>
+                                            <path id="fund-icon-f"
+                                                d="M39.462.846L51.45 7.768a3.6 3.6 0 011.8 3.117V21.75H22.072V10.885a3.6 3.6 0 011.8-3.117L35.862.846a3.6 3.6 0 013.6 0z">
+                                            </path>
+                                            <path id="fund-icon-i"
+                                                d="M6.6 19.096l3.996 2.308c.371.214.6.61.6 1.039v4.614a1.2 1.2 0 01-.6 1.04L6.6 30.403a1.2 1.2 0 01-1.2 0l-3.996-2.308a1.2 1.2 0 01-.6-1.039v-4.614a1.2 1.2 0 01.6-1.04L5.4 19.097a1.2 1.2 0 011.2 0z">
+                                            </path>
+                                            <path id="fund-icon-l"
+                                                d="M15.9 30.52l5.994 3.46c.557.322.9.916.9 1.56v6.92a1.8 1.8 0 01-.9 1.56L15.9 47.48a1.8 1.8 0 01-1.8 0l-5.994-3.46a1.8 1.8 0 01-.9-1.56v-6.92a1.8 1.8 0 01.9-1.56l5.994-3.46a1.8 1.8 0 011.8 0z">
+                                            </path>
+                                        </defs>
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path fill="url(#fund-icon-a)" d="M45 7.5H3.75a3.75 3.75 0 010-7.5H45"
+                                                opacity="0.25" transform="translate(17 31)"></path>
+                                            <path fill="url(#fund-icon-b)"
+                                                d="M0 37.5V3.75a3.75 3.75 0 003.55 3.745l.2.005H48l-.001 18H42a1.5 1.5 0 00-3 0H0V3.75z"
+                                                opacity="0.5" transform="translate(17 31)"></path>
+                                            <path fill="url(#fund-icon-c)"
+                                                d="M40.5 27a1.5 1.5 0 001.5-1.5h5.999L48 44l-42-.5a6 6 0 01-5.996-5.775L0 37.5v-12h39a1.5 1.5 0 001.5 1.5z"
+                                                opacity="0.2" transform="translate(17 31)"></path>
+                                            <path fill="url(#fund-icon-d)"
+                                                d="M51 21v9H40.5a4.5 4.5 0 01-4.495-4.288L36 25.5a4.5 4.5 0 014.5-4.5H51zm-10.5 3a1.5 1.5 0 100 3 1.5 1.5 0 000-3z"
+                                                opacity="0.25" transform="translate(17 31)"></path>
+                                            <path stroke="#FFF" stroke-dasharray="1,3"
+                                                d="M.625 56.5h49.982m21.2 0h13.568" opacity="0.4">
+                                            </path>
+                                            <g transform="translate(2.5 17)">
+                                                <use fill="#000" filter="url(#fund-icon-e)" xlink:href="#fund-icon-f">
+                                                </use>
+                                                <use fill="url(#fund-icon-g)" xlink:href="#fund-icon-f">
+                                                </use>
+                                            </g>
+                                            <g transform="translate(2.5 17)">
+                                                <use fill="#000" filter="url(#fund-icon-h)" xlink:href="#fund-icon-i">
+                                                </use>
+                                                <use fill="url(#fund-icon-j)" xlink:href="#fund-icon-i">
+                                                </use>
+                                            </g>
+                                            <g transform="translate(2.5 17)">
+                                                <use fill="#000" filter="url(#fund-icon-k)" xlink:href="#fund-icon-l">
+                                                </use>
+                                                <use fill="url(#fund-icon-m)" xlink:href="#fund-icon-l">
+                                                </use>
+                                            </g>
+                                            <path fill="url(#fund-icon-n)"
+                                                d="M39.094 3.978l9.49 5.48a2.85 2.85 0 011.426 2.467l-.001 9.825H25.328v-9.825a2.85 2.85 0 011.425-2.468l9.49-5.48a2.85 2.85 0 012.85 0z"
+                                                transform="translate(2.5 17)"></path>
+                                            <path fill="#FFF"
+                                                d="M39.667 28.746l1.141.306-.49 1.83.87.232.49-1.83 1.142.307-.497 1.851c.837.281 1.427.613 1.87 1.17.574.72.291 1.627.216 1.841-.074.215-.283.61-.548.83-.265.221-.807.368-.807.368s.523.266.834.664c.31.397.46.992.24 1.745a4.058 4.058 0 01-.259.691l-7.919-.001-1.279-.343.602-1.308.683.183c.23.062.331.066.451.001s.18-.198.21-.31l1.265-4.724c.08-.296.077-.382-.019-.57-.095-.19-.41-.295-.59-.343l-.66-.177.318-1.185 2.246.601.49-1.83zm-.59 6.766l-.655 2.448s.753.22 1.27.318c.516.098 1.073.11 1.373.036.3-.074.675-.214.825-.774.15-.56-.16-.895-.345-1.059-.185-.163-.621-.435-1.176-.623-.556-.19-1.291-.346-1.291-.346zm.895-3.34l-.59 2.203s.53.16.95.255c.42.095.889.118 1.256.028s.622-.32.723-.738c.101-.42-.082-.846-.513-1.116-.43-.27-.742-.364-1.098-.466a8.363 8.363 0 00-.728-.166z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    <p class="welcome-to-exodus__card-title">Make Your First Deposit
+                                    </p>
+                                    <p class="welcome-to-exodus__card-text">Manage hundreds of
+                                        supported assets,<br>plus import unlimited tokens</p>
+                                    <p class="welcome-to-exodus__card-action">Receive Crypto</p>
+                                </article>
+                            </div>
+                        </li>
+                        <!-- <li><a id="portfolio-buy-crypto-button">
+                                <article class="welcome-to-exodus__card"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="87" height="82" class="welcome-to-exodus__card-icon">
+                                        <defs>
+                                            <linearGradient id="buy-icon-a" x1="50" y1="63.8752" x2="12.6812"
+                                                y2="41.9841" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#FF9F1A"></stop>
+                                                <stop offset="1" stop-color="#FFCC33"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="buy-icon-b" x1="74.3747" y1="78.2982" x2="61.2904"
+                                                y2="45.064" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#5C26FF"></stop>
+                                                <stop offset="1" stop-color="#8C66FF"></stop>
+                                            </linearGradient>
+                                            <linearGradient id="buy-icon-c" x1="75.08" y1="63.8752" x2="37.7612"
+                                                y2="41.9841" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#556FF2"></stop>
+                                                <stop offset="1" stop-color="#00BFFF"></stop>
+                                            </linearGradient>
+                                        </defs>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M50 21.12C49 21.12 48 21.3835 47.104 21.9105L27.816 33.2548C26.0239 34.3088 24.92 36.2567 24.92 38.3647V61.0534C24.92 62.0566 25.17 63.0236 25.6253 63.8752L34.0044 59.1054C32.3889 56.3037 31.4626 53.0399 31.4626 49.5558C31.4626 39.127 39.7621 30.6727 50 30.6727V21.12Z"
+                                            fill="url(#buy-icon-a)"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M25.6253 63.8753C26.1266 64.8131 26.8768 65.611 27.816 66.1634L47.104 77.5077C48.8961 78.5617 51.1039 78.5617 52.896 77.5077L72.184 66.1634C73.1232 65.611 73.8734 64.8131 74.3747 63.8753L65.9956 59.1055C62.7755 64.69 56.8176 68.4389 50 68.4389C43.1824 68.4389 37.2245 64.69 34.0044 59.1055L25.6253 63.8753Z"
+                                            fill="url(#buy-icon-b)"></path>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M74.3747 63.8752C74.83 63.0236 75.08 62.0566 75.08 61.0534V38.3647C75.08 36.2567 73.9761 34.3088 72.184 33.2548L52.896 21.9105C52 21.3835 51 21.12 50 21.12V30.6727C60.2379 30.6727 68.5374 39.127 68.5374 49.5558C68.5374 53.0399 67.6111 56.3037 65.9956 59.1054L74.3747 63.8752Z"
+                                            fill="url(#buy-icon-c)"></path>
+                                        <path
+                                            d="M51.8306 62.5125C51.8294 62.9924 51.4478 63.3811 50.9767 63.3823H49.269C48.7979 63.3811 48.4163 62.9924 48.4151 62.5125V59.7735C44.6805 59.2508 42.8672 57.1422 42.3777 54.2297C42.3393 53.995 42.4052 53.755 42.5576 53.5747C42.7101 53.3943 42.9333 53.2923 43.1669 53.2962H45.1075C45.5129 53.2962 45.8557 53.5993 45.9398 53.9925C46.3042 55.7079 47.2853 57.0346 50.2738 57.0346C52.4689 57.0346 54.0472 55.7738 54.0472 53.9046C54.0472 52.0355 53.1308 51.3172 49.8879 50.7747C45.1075 50.1224 42.8456 48.6442 42.8456 44.8399C42.8456 41.9055 45.0449 39.6014 48.4151 39.1248V36.4297C48.4151 35.9509 48.799 35.5599 49.269 35.5599H50.9767C51.4447 35.5599 51.8306 35.9509 51.8306 36.4297V39.1885C54.582 39.6893 56.3328 41.2751 56.9085 43.9284C56.956 44.1667 56.8941 44.4141 56.7404 44.6002C56.5867 44.7862 56.358 44.8907 56.1194 44.8838H54.3254C53.9471 44.8822 53.616 44.6247 53.5146 44.2535C53.0252 42.5798 51.85 41.8418 49.8016 41.8418C47.5397 41.8418 46.3667 42.9488 46.3667 44.5148C46.3667 46.1666 47.0287 46.9924 50.5067 47.4932C55.2008 48.1456 57.633 49.5139 57.633 53.5774C57.633 56.6656 55.3712 59.1651 51.85 59.7296V62.5125H51.8285H51.8306Z"
+                                            fill="white"></path>
+                                    </svg>
+                                    <p class="welcome-to-exodus__card-title">Buy Crypto</p>
+                                    <p class="welcome-to-exodus__card-text">Pay in USD, EUR, and GBP
+                                        with your bank<br>account, Apple Pay, and credit or debit
+                                        card</p>
+                                    <p class="welcome-to-exodus__card-action">Check Prices</p>
+                                </article>
+                            </a></li> -->
+                        <li>
+                            <article id="restore-from-backup" class="welcome-to-exodus__card"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="87" height="82"
+                                    class="welcome-to-exodus__card-icon">
+                                    <defs>
+                                        <linearGradient id="restore-icon-a" x1="73.111%" x2="28.986%" y1="101%"
+                                            y2="2.691%">
+                                            <stop offset="0%" stop-color="#FFF" stop-opacity="0.1">
+                                            </stop>
+                                            <stop offset="100%" stop-color="#FFF" stop-opacity="0.5">
+                                            </stop>
+                                        </linearGradient>
+                                        <linearGradient id="restore-icon-b" x1="8.519%" x2="91.481%" y1="100%" y2="0%">
+                                            <stop offset="0%" stop-color="#FF9F19"></stop>
+                                            <stop offset="100%" stop-color="#FC3"></stop>
+                                        </linearGradient>
+                                        <linearGradient id="restore-icon-c" x1="72.219%" x2="27.781%" y1="100%" y2="0%">
+                                            <stop offset="0%" stop-color="#556FF2"></stop>
+                                            <stop offset="100%" stop-color="#00BFFF"></stop>
+                                        </linearGradient>
+                                        <linearGradient id="restore-icon-d" x1="100%" x2="0%" y1="43.126%" y2="56.874%">
+                                            <stop offset="0%" stop-color="#5C26FF"></stop>
+                                            <stop offset="100%" stop-color="#8C66FF"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="none" fill-rule="evenodd">
+                                        <path fill="url(#restore-icon-a)"
+                                            d="M41.25 23.25c12.426 0 22.5 10.074 22.5 22.5 0 4.098-1.095 7.94-3.01 11.25L41.255 45.75h-.004z"
+                                            opacity="0.5" transform="translate(3)"></path>
+                                        <path stroke="#FFF" stroke-dasharray="0.75,3"
+                                            d="M44.625 0v45.777m38.947 22.66L43.928 45.55M4.907 68.456L44.55 45.567"
+                                            opacity="0.4"></path>
+                                        <path fill="url(#restore-icon-b)" fill-rule="nonzero"
+                                            d="M14.25 45.75c0-14.912 12.088-27 27-27h-.002l.001 4.5c-12.302 0-22.297 9.873-22.496 22.128l-.003.372h4.575l-6.75 7.5-6.75-7.5z"
+                                            transform="translate(3)"></path>
+                                        <path fill="url(#restore-icon-c)" fill-rule="nonzero"
+                                            d="M41.25 18.75c14.912 0 27 12.088 27 27 0 4.918-1.315 9.53-3.613 13.501l-3.898-2.25A22.396 22.396 0 0063.75 45.75c0-12.426-10.074-22.5-22.5-22.5z"
+                                            transform="translate(3)"></path>
+                                        <path fill="url(#restore-icon-d)" fill-rule="nonzero"
+                                            d="M60.739 57.002l3.898 2.25c-4.67 8.07-13.394 13.498-23.387 13.498-7.453 0-14.2-3.02-19.086-7.903l3.18-3.183A22.411 22.411 0 0041.25 68.25c8.327 0 15.598-4.524 19.489-11.248z"
+                                            transform="translate(3)"></path>
+                                        <path stroke="#FFF" stroke-width="3" d="M44.25 32.25v13.5l13.34 7.698"></path>
+                                    </g>
+                                </svg>
+                                <p class="welcome-to-exodus__card-title">Already Have a Wallet?</p>
+                                <p class="welcome-to-exodus__card-text">Enter your 12-word Secret
+                                    Key to<br>restore an existing wallet</p>
+                                <p class="welcome-to-exodus__card-action">Import Wallet</p>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+</body>
