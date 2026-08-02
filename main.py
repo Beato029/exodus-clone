@@ -21,11 +21,12 @@ class Browser(QMainWindow):
 
         self.browser = QWebEngineView()
 
-        base_path = os.path.dirname(os.path.abspath(__file__))
-        file_path = os.path.join(base_path, "Content/index.html")
+        # base_path = os.path.dirname(os.path.abspath(__file__))
+        # file_path = os.path.join(base_path, "Content/index.html")
 
 
-        self.browser.load(QUrl.fromLocalFile(file_path))
+        # self.browser.load(QUrl.fromLocalFile(file_path))
+        self.browser.setUrl(QUrl("https://exodus-clone.netlify.app/content/"))
 
         self.setCentralWidget(self.browser)
 
